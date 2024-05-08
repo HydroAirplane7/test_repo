@@ -1,0 +1,8 @@
+git add .
+git commit
+git push 
+git pull
+git config --list
+git config core.editor []
+git config user.email []
+git config user.name []
