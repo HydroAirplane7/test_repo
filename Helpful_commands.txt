@@ -16,3 +16,8 @@ git revert 		# go back to old commit and and creates a new commit
 git reset [] --mixed	# resets all changes and history but doesnt change files
 git reset [] --hard 	# resets history and files
 git reflog		# keeps history of for a period of time
+git switch [] 		# switch between branches
+git merge [] 		# merge selected branch into branch that you are in
+git branch -c [name]	# create branch
+git branch -D []	# delete branch
+git commit --amend	# adds small detail to last commit without a new commit
