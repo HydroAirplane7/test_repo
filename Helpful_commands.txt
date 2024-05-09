@@ -2,7 +2,17 @@ git add .
 git commit
 git push 
 git pull
+git status
 git config --list
 git config core.editor []
 git config user.email []
 git config user.name []
+git log 
+git log --oneline
+git checkout []		# check different past commits
+git restore . 		# restores to the currently open commit (can select singe file instead of .)
+git diff 		# compare commits
+git revert 		# go back to old commit and and creates a new commit
+git reset [] --mixed	# resets all changes and history but doesnt change files
+git reset [] --hard 	# resets history and files
+git reflog		# keeps history of for a period of time
